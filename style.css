@@ -45,8 +45,10 @@ hr {
     background-color: #0C0915;
     border-color: #07040F;
 }
-.btn-xl{
-    padding: 1rem 2rem;
-}
+.btn-xl{padding: 1rem 2rem;}
+
 .card-body{background-color: #07040F;}
-#mc_embed_signup{background:#07040F; color: rgb(255, 255, 255);clear:left;  width:600px;}
+
+#mc_embed_signup_scroll{width: 300px;}
+
+#mc_embed_signup{background:#07040F; color: rgb(255, 255, 255);clear:left;  width:300px;}
