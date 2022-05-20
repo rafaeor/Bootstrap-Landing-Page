@@ -1,0 +1,52 @@
+body,
+img,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img{
+    margin: 10px 0;
+}
+h1{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-size: 3rem;
+}
+hr {
+    margin: 20px auto;
+    color: #3E3A48;
+    border: 2px solid #3E3A48;
+    max-width: 95px;
+    opacity: 1;  
+}
+
+.buffer{
+    height: 15rem;
+}
+.btn{
+    border-radius: 300px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn-secondary{
+    background-color: #1A1821;
+    border-color: #07040F;
+    --bs-btn-hover-bg: #07040F;
+    --bs-btn-hover-border-color: #3E3A48;
+    --bs-btn-active-bg: #1A1821;
+}
+.btn-secondary:hover{
+    background-color: #0C0915;
+    border-color: #07040F;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.card-body{background-color: #07040F;}
+#mc_embed_signup{background:#07040F; color: rgb(255, 255, 255);clear:left;  width:600px;}
